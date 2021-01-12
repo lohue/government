@@ -9,8 +9,10 @@
 <style>
 
 body {
+	overflow-y:hidden;
+	overflow-x:hidden;
 	background-color:#000000;
-	background-image:url(MobileSite/Gifs/filmgrain.gif);
+	background-image:url(grain.gif);
 }
 a:link {
 	color:#B2FF7F;
@@ -57,10 +59,28 @@ pre {
 	font-family:syne mono;
 	font-size:85%;
 }
-.heading {
-    padding-left:10%;
-    padding-right:10%;
-    font-size:75px;
+.topborder {
+	top:0px;
+	width: 1920px;
+	height: 75px;
+	background:url(top.png);
+	overflow-x:hidden;
+}
+.right {
+	position:absolute;
+	right:0%;
+}
+.left {
+	position:absolute;
+	left:0%;
+}
+.top {
+	position:absolute;
+	top:0%;
+}
+.bottom {
+	position:absolute;
+	bottom:0%;
 }
 </style>
 
@@ -69,11 +89,8 @@ pre {
 <!--HTML STARTS HERE-->
 
 <body>
-    <div class="heading">
-        <p>Are you looking for someone who is hard working, committed & energetic to add to your team?</p>
-        <p>If so, I may be the one you have been looking for!</p>
-    </div>
-    <div class="resumebutton">
-        
-    </div>
+	<img src="top.png" alt="border" class="top">
+	<img src="left.png" alt="border" class="left">
+	<img src="right.png" alt="border" class="right">
+	<img src="bottom.png" alt="border" class="bottom">
 </body>
