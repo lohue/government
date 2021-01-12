@@ -9,8 +9,6 @@
 <style>
 
 body {
-	overflow-y:hidden;
-	overflow-x:hidden;
 	background-color:#000000;
 	background-image:url(grain.gif);
 }
@@ -82,6 +80,10 @@ pre {
 	position:absolute;
 	bottom:0%;
 }
+.wrapper {
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
 </style>
 
 </head>
@@ -89,8 +91,10 @@ pre {
 <!--HTML STARTS HERE-->
 
 <body>
+<div class="wrapper">
 	<img src="top.png" alt="border" class="top">
 	<img src="left.png" alt="border" class="left">
 	<img src="right.png" alt="border" class="right">
 	<img src="bottom.png" alt="border" class="bottom">
+</div>
 </body>
