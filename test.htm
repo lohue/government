@@ -2,18 +2,42 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Syne+Mono&display=swap" rel="stylesheet">
+
 <style>
 body {
     background-color:#000000;
 }
-
+a:link {
+	color:#B2FF7F;
+}
+a:visited {
+	color:#F289EE;
+}
+a:hover {
+	color:#0AFF6F;
+}
+a:active {
+	color:#F526E8;
+}
 .navbar {
     text-align:center;
     width:150px;
     margin:auto;
 }
 
+a {
+	color:#ffffff;
+	text-align:center;
+	font-family:syne mono;
+	font-size:85%;
+}
+p {
+	color:#ffffff;
+	text-align:center;
+	font-family:syne mono;
+	font-size:85%;
+}
 .navbar a {
   float: left;
   font-size: 16px;
@@ -44,25 +68,29 @@ body {
 }
 
 .dropdown-content {
+    border-style:dotted;
+    border-radius:10px;
+    text-align:center;
   display: none;
+  border: solid 2px #00ffbf;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
+  background-color: #000000;
+  min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
+    
+    text-align:left;
   float: none;
-  color: black;
-  padding: 12px 16px;
+  color: #ffffff;
   text-decoration: none;
   display: block;
-  text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-image:url(droprose.PNG);
 }
 
 .dropdown:hover .dropdown-content {
@@ -71,10 +99,11 @@ body {
 </style>
 </head>
 <body>
-
-<div class="navbar">
+<div style="margin:auto; text-align:center;">
+    <img src="lohue.png" alt="lohue">
+<div class="navbar"> <!--Navigation-->
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Navigation
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -86,6 +115,6 @@ body {
     </div>
   </div> 
 </div>
-
+</div>
 </body>
 </html>
