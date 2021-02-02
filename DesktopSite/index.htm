@@ -55,12 +55,81 @@ ul {
 li {
 	display:inline;
 }
+.navbar {
+    text-align:center;
+    width:150px;
+    margin:auto;
+}
 
+a {
+	color:#ffffff;
+	text-align:center;
+	font-family:syne mono;
+	font-size:85%;
+}
 p {
 	color:#ffffff;
 	text-align:center;
 	font-family:syne mono;
 	font-size:85%;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+    margin-left:0px;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: solid 2px #00ffbf;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #53ddc6;
+}
+
+.dropdown-content {
+    border-style:dotted;
+    border-radius:10px;
+    text-align:center;
+  display: none;
+  border: solid 2px #00ffbf;
+  position: absolute;
+  background-color: #000000;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    
+    text-align:left;
+  float: none;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-image:url(droprose.PNG);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 pre {
 	color:#ffffff;
@@ -91,11 +160,11 @@ pre {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Home</a>
-      <a href="#">Gallery</a>
-      <a href="#">About</a>
-      <a href="#">Links</a>
-      <a href="#">SuperSecretPage</a>
+      <a href="index.htm">Home</a>
+      <a href="Gallery.htm">Gallery</a>
+      <a href="about.htm">About</a>
+      <a href="links.htm">Links</a>
+      <a href="ss.htm">SuperSecretPage</a>
     </div>
   </div> 
 </div>
