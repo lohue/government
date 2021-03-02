@@ -13,7 +13,6 @@
 	<meta name="theme-color" content="#ffffff">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <style>
-
 body {
 	background-color:#000000;
 	background-image:url(MobileSite/Gifs/filmgrain.gif);
@@ -30,7 +29,6 @@ a:hover {
 a:active {
 	color:#F526E8;
 }
-
 h1 {
 	color:#ffffff;
 	text-align:center;
@@ -39,18 +37,15 @@ h1 {
 	font-family:source code pro;
 	font-size:50px;
 }
-
 ul {
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	padding-left:42%;
 }
-
 li {
 	display:inline;
 }
-
 p {
 	color:#ffffff;
 	text-align:center;
@@ -105,6 +100,33 @@ pre {
 .secret:hover {
 	background:url(MobileSite/Images/secret2.png);
 }
+.changes {
+	display:none;
+}
+.changelog {
+	text-align:center;
+	padding:1%;
+	position:absolute;
+	top:2%;
+	left:1%;
+	width:10%;
+	color:white;
+	border:2px dashed white;
+}
+.changes {
+	text-align:center;
+	padding:1%;
+	position:absolute;
+	top:11%;
+	left:1%;
+	width:10%;
+	color:white;
+	border:2px dashed rgb(0, 255, 221);
+}
+.changelog:hover + .changes {
+	display:block;
+	color:#ffffff;
+}
 </style>
 
 </head>
@@ -130,6 +152,11 @@ pre {
 		<div class="resume">
 		</div>
 	</a>
+</div>
+<div class="changelog">Changelog.<br>(Desktop Only for now)</div>
+<div class="changes">
+	2/03/2021<br>>Added new art to gallery.
+	<br>>Added this changelog. Hello.
 </div>
 <div style="background:url(filmgrain.gif);position:fixed; left:0px; bottom:0px; width:100%;"><!--footer-->
     <hr>
