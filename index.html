@@ -4,27 +4,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Syne+Mono&display=swap" rel="stylesheet">
 
 <head>
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="144x144" href="annoying shit/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="annoying shit/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="annoying shit/favicon-16x16.png">
+	<link rel="manifest" href="annoying shit/site.webmanifest">
+	<link rel="mask-icon" href="annoying shit/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="annoying shit/favicon.ico">
 <style>
 body {
 	background-color:#000000;
-	background-image:url(MobileSite/Gifs/filmgrain.gif);
+	background-image:url(images/filmgrain.gif);
 }
 a:link {
-	color:#B2FF7F;
+	color:#7fffce;
 }
 a:visited {
 	color:#F289EE;
 }
 a:hover {
-	color:#0AFF6F;
+	color:#0affff;
 }
 a:active {
 	color:#F526E8;
@@ -59,73 +59,63 @@ pre {
 	font-size:85%;
 }
 .container {
-	margin-top:10%;
 	text-align:center;
 }
-.desktop {
+.illustration {
 	display:inline-block;
 	height:225px;
 	width:298px;
-	background:url(MobileSite/Images/desktop.png);
+	background:url(images/illustration1.png);
 }
-.desktop:hover {
-	background:url(MobileSite/Images/desktop2.png);
+.illustration:hover {
+	background:url(images/illustration2.png);
 }
-.resume {
-	display:inline-block;
-	height:225px;
-	width:298px;
-	background:url(MobileSite/Images/Resume.png);
-}
-.resume:hover {
-	background:url(MobileSite/Images/Resume2.png);
-}
-.uidesign {
+.design {
 	
 	display:inline-block;
 	height:225px;
 	width:298px;
-	background:url(MobileSite/Images/ui.png);
+	background:url(images/design1.png);
 }
-.uidesign:hover {
-	background:url(MobileSite/Images/ui2.png);
+.design:hover {
+	background:url(images/design2.png);
 }
-.secret {
-	cursor:not-allowed;
+.coms {
 	display:inline-block;
-	height:225px;
+	height:284px;
 	width:298px;
-	background:url(MobileSite/Images/secret.png);
+	background:url(images/coms.png);
 }
-.secret:hover {
-	background:url(MobileSite/Images/secret2.png);
+.coms:hover {
+	background:url(images/coms.gif);
 }
 .changes {
 	display:none;
 }
 .changelog {
-	text-align:center;
-	padding:1%;
 	position:absolute;
-	top:2%;
-	left:1%;
-	width:10%;
-	color:white;
-	border:2px dashed white;
+	bottom:0;
+	left:0;
+	width:100px;
+	height:100px;
+	background:url(images/secret.png);
+	z-index:2;
 }
-.changes {
-	text-align:center;
-	padding:1%;
+.changelog:hover {
+	background:url(images/secret2.png);
+}
+.secret {
+	z-index:2;
+	cursor:not-allowed;
 	position:absolute;
-	top:11%;
-	left:1%;
-	width:10%;
-	color:white;
-	border:2px dashed rgb(0, 255, 221);
+	bottom:0%;
+	right:0%;
+	height:100px;
+	width:100px;
+	background:url(images/secret.png);
 }
-.changelog:hover + .changes {
-	display:block;
-	color:#ffffff;
+.secret:hover {
+	background:url(images/secret2.png);
 }
 </style>
 
@@ -134,39 +124,41 @@ pre {
 <!--HTML STARTS HERE-->
 
 <body>
+	<div style="margin:auto; text-align:center;">
+		<img src="images/lohue.gif" alt="lohue" style="width:400px;">
+	</div>
+	<a href="Resume/resume.htm" style="text-align:center;"><p>view my design resume.</p></a>
 	<div class="container">
-	<a href="DesktopSite/index.htm">
-		<div class="desktop">
+	<a href="illustration/illustrations.htm">
+		<div class="illustration">
 		</div>
 	</a>
-	<a href="UI & UX Work/uidesign.htm">
-		<div class="uidesign">
+	<a href="commission/coms.htm">
+		<div class="coms">
 		</div>
 	</a>
-	<br>
+	<a href="design/design.htm">
+		<div class="design">
+		</div>
+	</a>
 	<a href="secret/secret.htm">
 		<div class="secret">
 		</div>
 	</a>
-	<a href="Resume/resume.htm">
-		<div class="resume">
-		</div>
-	</a>
 </div>
-<div class="changelog">Changelog.<br>(Desktop Only for now)</div>
-<div class="changes">
-	6/03/2021<br>>Added new art to gallery.<br>>Made foundation for some backend organisation.<br><br>
-	3/03/2021<br>>Made some changes to my space.<br><br>
-	2/03/2021<br>>Added new art to gallery.
-	<br>>Added this changelog. Hello.
+<a href="changes/changelog.htm">
+<div class="changelog">
 </div>
+
+</a>
+
 <div style="background:url(filmgrain.gif);position:fixed; left:0px; bottom:0px; width:100%;"><!--footer-->
     <hr>
     <address style="color:#ffffff; text-align:center;">
             Website by Lohue<br>
             Project Commencement date: 3/11/2020<br>
-            Follow <a href="https://twitter.com/Lohue2">Lohue</a> on Twitter<br>
-            Email <a href="mailto:loehue99@gmail.com">loehue99@gmail.com</a>
+            Follow <a href="https://twitter.com/MrLohue">Lohue</a> on Twitter or Email <a href="mailto:loehue99@gmail.com">loehue99@gmail.com</a><br>
+            
             Thanks for taking the time to participate in my website.<br>
             ooo you want to collaborate with Lohue ooo
 			<br>
