@@ -94,15 +94,17 @@ pre {
 }
 .changelog {
 	position:absolute;
-	bottom:0;
+	bottom:5px;
 	left:0;
 	width:100px;
 	height:100px;
-	background:url(images/secret.png);
+	background:url(images/Resume.png);
+	background-size: 100px 100px;
 	z-index:2;
 }
 .changelog:hover {
-	background:url(images/secret2.png);
+	background:url(images/Resume2.png);
+	background-size: 100px 100px;
 }
 .secret {
 	z-index:2;
@@ -117,6 +119,16 @@ pre {
 .secret:hover {
 	background:url(images/secret2.png);
 }
+.video {
+	margin-top: 40px;
+	display:inline-block;
+	height:245px;
+	width:350px;
+	background:url(images/video.png);
+}
+.video:hover {
+	background:url(images/videohover.png);
+}
 </style>
 
 </head>
@@ -127,7 +139,7 @@ pre {
 	<div style="margin:auto; text-align:center;">
 		<img src="images/lohue.gif" alt="lohue" style="width:400px;">
 	</div>
-	<div class="container">
+<div class="container">
 	<a href="illustration/illustrations.htm">
 		<div class="illustration">
 		</div>
@@ -145,11 +157,20 @@ pre {
 		</div>
 	</a>
 </div>
-<a href="changes/changelog.htm">
-<div class="changelog">
+<div class="container">
+	
+	<a href="videos/videos.htm">
+		<div class="video">
+		</div>
+	</a>
 </div>
 
-</a>
+<a href="changes/changelog.htm">
+	<div class="changelog">
+	</div>
+	
+	</a>
+
 
 <div style="background:url(filmgrain.gif);position:fixed; left:0px; bottom:0px; width:100%;"><!--footer-->
     <hr>
