@@ -110,7 +110,7 @@ pre {
 	z-index:2;
 	cursor:not-allowed;
 	position:absolute;
-	bottom:0%;
+	top:0%;
 	right:0%;
 	height:100px;
 	width:100px;
@@ -129,6 +129,20 @@ pre {
 .video:hover {
 	background:url(images/videohover.png);
 }
+.feedback {
+	width:100px;
+	height:100px;
+	background:url(images/Feedback.png);
+	background-size: 100% auto;
+	position:absolute;
+	bottom:0%;
+	right:0%;
+	z-index:2;
+}
+.feedback:hover {
+	background:url(images/Feedback\ Hover.png);
+	background-size: 100% auto;
+}
 </style>
 
 </head>
@@ -136,9 +150,11 @@ pre {
 <!--HTML STARTS HERE-->
 
 <body>
-	<div style="margin:auto; text-align:center;">
+<div style="margin:auto; text-align:center;">
 		<img src="images/lohue.gif" alt="lohue" style="width:400px;">
-	</div>
+
+	
+</div>
 <div class="container">
 	<a href="illustration/illustrations.htm">
 		<div class="illustration">
@@ -169,7 +185,12 @@ pre {
 	<div class="changelog">
 	</div>
 	
-	</a>
+</a>
+<a href="comments/comments.htm">
+		<div class="feedback">
+		</div>
+		
+</a>
 
 
 <div style="background:url(filmgrain.gif);position:fixed; left:0px; bottom:0px; width:100%;"><!--footer-->
